@@ -56,5 +56,5 @@ High-level overview of [team stat tracking system](https://github.com/kchenTTP/t
 ## *Future Features*
 [^1]: Due to CMS API not being available, web scraping is required
 [^2]: String matching with fuzzy match or KNN
-[^3]: Classify each class to their own genre with KNN & clustering techniques
+[^3]: Classify each class to their own genre with KNN & decision trees
 [^4]: Generate Excel or pdf reports
