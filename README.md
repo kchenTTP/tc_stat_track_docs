@@ -10,7 +10,7 @@ High-level overview of [team stat tracking system](https://github.com/kchenTTP/t
 ### **Data Extraction**
 - Download monthly system wide event data from online content management system (CSM)
   - Manually download csv files
-  - Or, periodically scrape csv files (Google Cloud Functions)[^1]
+  - Or, periodically scrape csv files (cron jobs)[^1]
 
 
 ### **Data Transformation Pipeline**
@@ -31,17 +31,17 @@ High-level overview of [team stat tracking system](https://github.com/kchenTTP/t
 #### *Data Transformation*
 - Add columns for additional information missing from CMS data
 
-#### *Data Loading (BigQuery Python API)*
-- Load processed data and additional supporting data into BigQuery (star schema model)
+#### *Data Loading (CockroachDB PostgreSQL)*
+- Load processed data and additional supporting data into CockroachDB (star schema model)
 
 
 ### **Data Warehouse**
-- BigQuery
+- CockroachDB (PostgreSQL)
 
 
 ### **Data Analysis Pipeline**
 #### *Data Transformation (Pandas, Matplotlib)*
-- Connect to BigQuery
+- Connect to CockroachDB
 - Aggregate data
 - Plot charts
 
