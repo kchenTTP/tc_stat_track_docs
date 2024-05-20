@@ -57,7 +57,7 @@ System overview of [team stat tracking system](https://github.com/kchenTTP/team_
 ---
 
 ## *Future Features*
-[^1]: Due to internal system using multiple versions of CMS (Drupal), the API is unreliable. Web scraping is required to retrieve system data\
-[^2]: String matching with fuzzy match, KNN, or other matching algorithm\
-[^3]: Classify each class to their own genre with KNN, decision trees, or other multi-class classification algorithms to support more detailed analysis in the future\
+[^1]: Due to internal system using multiple versions of CMS (Drupal), the API is unreliable. Web scraping is required to retrieve system data  
+[^2]: String matching with fuzzy match, KNN, or other matching algorithm  
+[^3]: Classify each class to their own genre with KNN, decision trees, or other multi-class classification algorithms to support more detailed analysis in the future  
 [^4]: Generate Excel or pdf reports of data dashboard
