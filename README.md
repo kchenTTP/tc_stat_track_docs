@@ -25,8 +25,8 @@ System overview of [team stat tracking system](https://github.com/kchenTTP/team_
 - Handle edge cases
 
 #### *Airtable Data Extraction*
-- Scrape class information from internal Airtable database due to API limitations
-- *Future update: store airtable data in warehouse + scheduled scraping to automate class name adjustments*
+- Scrape class information from internal Airtable database due to API limitations using [airtable scraper](https://github.com/kchenTTP/airtable-scraper) library
+- *Future update: store airtable data in warehouse + scheduled scraping to automate class name adjustments (Prefect)*
 
 #### *Future update: String Matching & Genre Classification*
 - Match class title strings from CMS data to Airtable data to ensure data integrity[^2]
@@ -49,6 +49,7 @@ System overview of [team stat tracking system](https://github.com/kchenTTP/team_
 - plot charts for dashboard to support analysis
 
 #### *Dashboard*
+![stat tracking dashboard](./images/stat-tracking-dashboard.jpg)
 - Streamlit interactive dashboard
 - *Future update: Authentication layer to limit access to team members*
 - *Future update: Generate data reports*[^4]
