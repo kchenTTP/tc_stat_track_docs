@@ -38,6 +38,7 @@ The analysis dashboard retrieves data from the data warehouse and transforms it 
 
 
 ## Data Processing Pipeline
+For detailed documentation on source code please visit: <a href="https://github.com/kchenTTP/tc_stat_track_data_pipe/blob/main/README.md" style="font-size:1.1em;"><ins><strong>here</strong></ins></a>
 
 <div align="center">
   <img src="./images/stat-tracking-data-pipeline-diagram.png" alt="data processing pipeline diagram" width="900" style="border-radius:1%;">
@@ -68,7 +69,7 @@ The analysis dashboard retrieves data from the data warehouse and transforms it 
 - Test transformation functions performs correctly
 
 ### Data Loading
-- Store data to remote SQL server
+- Store data to remote SQL server using [database connectors](https://github.com/kchenTTP/db-connections)
 - Create local backups of database
 
 > *Note:*
@@ -87,6 +88,7 @@ The analysis dashboard retrieves data from the data warehouse and transforms it 
 
 
 ## Analysis Dashboard
+For detailed documentation on source code please visit: <a href="https://github.com/kchenTTP/tc_stat_track_app/blob/main/README.md" style="font-size:1.1em;"><ins><strong>here</strong></ins></a>
 
 <div align="center">
   <img src="./images/stat-tracking-dashboard-app-diagram.png" alt="" width="900">
