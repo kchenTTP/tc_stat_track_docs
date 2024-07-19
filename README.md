@@ -14,30 +14,30 @@
 
 
 ## Map
-- [<ins>System Overview</ins>](#system-overview)
-- [<ins>Data Processing Pipeline</ins>](#data-processing-pipeline)
-- [<ins>Analysis Dashboard</ins>](#analysis-dashboard)
-- [<ins>Data Warehouse</ins>](#data-warehouse)
+- [<ins>System Overview</ins>](#1---system-overview)
+- [<ins>Data Processing Pipeline</ins>](#2---data-processing-pipeline-1)
+- [<ins>Analysis Dashboard</ins>](#3---analysis-dashboard)
+- [<ins>Data Warehouse</ins>](#4---data-warehouse)
 
 
-## System Overview
+## 1 - System Overview
 The system consists of a data processing pipeline, an analysis dashboard, and a data warehouse.
 
 <div align="center">
   <img src="./images/stat-tracking-system-diagram.png" alt="TechConnect stat tracking system diagram" width="900" style="border-radius:1%;">
 </div>
 
-### [<ins>Data Processing Pipeline</ins>](#data-processing-pipeline)
+### [<ins>Data Processing Pipeline</ins>](#2---data-processing-pipeline)
 The data processing pipeline takes monthly data from the library internal content management system (CMS) and transforms it to a format suitable for the purpose of the TechConnect team.
 
-### [<ins>Data Warehouse</ins>](#data-warehouse)
+### [<ins>Data Warehouse</ins>](#3---data-warehouse)
 The data warehouse is designed in a star schema format, encompassing all event data along with team information.
 
-### [<ins>Analysis Dashboard</ins>](#analysis-dashboard)
+### [<ins>Analysis Dashboard</ins>](#4---analysis-dashboard)
 The analysis dashboard retrieves data from the data warehouse and transforms it into various views and charts to facilitate easy analysis and insights.
 
 
-## Data Processing Pipeline
+## 2 - Data Processing Pipeline
 For detailed documentation on source code please visit: <a href="https://github.com/kchenTTP/tc_stat_track_data_pipe/blob/main/README.md" style="font-size:1.1em;"><ins><strong>here</strong></ins></a>
 
 <div align="center">
@@ -77,7 +77,7 @@ For detailed documentation on source code please visit: <a href="https://github.
 > - *Future update: More testing* [^4]
 
 
-## Data Warehouse
+## 3 - Data Warehouse
 - SQL database (star schema model) updated monthly whenever CMS gets all information from team
   - Events table
   - Team members table
@@ -87,7 +87,7 @@ For detailed documentation on source code please visit: <a href="https://github.
 > - *Future update: store airtable data in warehouse + scheduled scraping to automate class name adjustments (Prefect)*
 
 
-## Analysis Dashboard
+## 4 - Analysis Dashboard
 For detailed documentation on source code please visit: <a href="https://github.com/kchenTTP/tc_stat_track_app/blob/main/README.md" style="font-size:1.1em;"><ins><strong>here</strong></ins></a>
 
 <div align="center">
