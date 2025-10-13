@@ -5,6 +5,10 @@
   <p>
     <a href="https://github.com/kchenTTP/team_stat_tracking" style="font-size:1.3em;"><strong>TechConnect Comprehensive Stat Tracking System</strong></a> is the seamless combination of two distinct software components (<a href="https://github.com/kchenTTP/tc_stat_track_data_pipe" style="font-size:1.1em;"><strong>data pipeline</strong></a> and <a href="https://github.com/kchenTTP/tc_stat_track_app" style="font-size:1.1em;"><strong>analysis dashboard</strong></a>) to transform, store, and provide insightful analysis of team-wide attendance statistics. 
   </p>
+
+  <blockquote>
+    ⚠️ This is a high-level overview: All information has been <strong>anonymized</strong> and <strong>aggregated</strong>; shared with permission to protect departmental operations and sensitive details.
+  </blockquote>
   
   <br>
   
@@ -109,13 +113,15 @@ For detailed documentation on source code please visit: <a href="https://github.
 ### Authentication Layer
 - Sign-in page and router for Streamlit to block unauthorized users and redirect users who have already signed in
 
+<!--
 > *Note:*
 > - *Future update: Generate data reports*[^3]
-> - *Future update: More testing* [^4]
+> - *Future update: More testing* [^4] -->
 
 
 ## *Future Features*
 [^1]: Due to internal system using multiple versions of CMS (Drupal), the API is unreliable. Web scraping is required to retrieve system data  
 [^2]: Scrape class information for more accurate event data  
+<!--
 [^3]: Generate Excel or pdf reports of data dashboard  
-[^4]: More testing to ensure data quality and application functionality  
+[^4]: More testing to ensure data quality and application functionality  -->
